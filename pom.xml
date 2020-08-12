@@ -7,6 +7,103 @@
     <groupId>org.spring</groupId>
     <artifactId>spring-cloud-2020-8</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
+    <modules>
+        <module>cloud-api-core</module>
+        <module>cloud-eureka-server-7001</module>
+        <module>cloud-eureka-server-7002</module>
+        <module>cloud-provider-payment-8001</module>
+        <module>cloud-provider-payment-8002</module>
+        <module>cloud-provider-payment-8004</module>
+        <module>cloud-provider-payment-8006</module>
+        <module>cloud-provider-hystrix-payment-8001</module>
+        <module>cloud-gateway-gateway-9527</module>
+        <module>cloud-consumer-order-80</module>
+        <module>cloud-consumer-consul-order-80</module>
+        <module>cloud-consumer-zookeeper-order-80</module>
+        <module>cloud-consumer-feign-order-80</module>
+        <module>cloud-consumer-feign-hystrix-order-80</module>
+        <module>cloud-consumer-hystrix-dashboard-9001</module>
+        <module>cloud-config-center-3344</module>
+        <module>cloud-config-client-3355</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <spring.cloud.dependencies.version>Hoxton.SR7</spring.cloud.dependencies.version>
+        <spring.cloud.alibaba.dependencies.version>2.2.1.RELEASE</spring.cloud.alibaba.dependencies.version>
+        <spring.boot.dependencies.version>2.3.2.RELEASE</spring.boot.dependencies.version>
+        <mysql.version>8.0.21</mysql.version>
+        <gson.version>2.8.6</gson.version>
+        <mybatis.spring.boot.version>2.1.3</mybatis.spring.boot.version>
+        <druid.spring.boot.starter.version>1.1.23</druid.spring.boot.starter.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring.cloud.dependencies.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring.cloud.alibaba.dependencies.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring.boot.dependencies.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid.spring.boot.starter.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+                <scope>runtime</scope>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-starter -->
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis.spring.boot.version}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

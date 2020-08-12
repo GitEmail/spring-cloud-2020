@@ -1,0 +1,3 @@
+org\spring\config\GatewayConfig.class
+org\spring\filters\MyGatewayFilter.class
+org\spring\Gateway9527.class

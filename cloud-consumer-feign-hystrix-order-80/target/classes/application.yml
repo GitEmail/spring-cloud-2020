@@ -1,0 +1,20 @@
+server:
+  port: 80
+
+eureka:
+  client:
+    #true向Eureka server服务中心注册自己
+    register-with-eureka: false
+    service-url:
+      #,http://eureka7002.org:7002/eureka
+      defaultZone: http://eureka7001.org:7001/eureka
+ribbon:
+  ReadTimeout: 5000
+  ConnectTimeout: 8000
+logging:
+  level:
+    org.spring.org.spring.service.PaymentFeignService: debug
+
+feign:
+  hystrix:
+    enabled: true

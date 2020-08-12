@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="96058a75-8ad6-4c3d-a44d-c8ebf77e6501" name="默认的" comment="" />
+    <list default="true" id="96058a75-8ad6-4c3d-a44d-c8ebf77e6501" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +35,16 @@
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -38,23 +71,87 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectId" id="1fz49zWBpAta64Ohu665EruKiY2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="新增" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="项目" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" />
+    <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.side.proportion" value="0.29885057" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\Projects\spring-cloud-2020-8\cloud-config-client-3355\src" />
+      <recent name="D:\java\Projects\spring-cloud-2020-8\cloud-config-center-3344\src" />
+      <recent name="D:\java\Projects\spring-cloud-2020-8\cloud-consumer-hystrix-dashboard-9001\src" />
+      <recent name="D:\java\Projects\spring-cloud-2020-8\cloud-consumer-feign-hystrix-order-80\src" />
+      <recent name="D:\java\Projects\spring-cloud-2020-8\cloud-consumer-feign-order-80\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Config3355">
+    <configuration name="Config3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-client-3355" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.spring.Config3355" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-eureka-server-7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.spring.EurekaServer7001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServer7001" />
+      <item itemvalue="Spring Boot.Config3355" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Config3355" />
+        <item itemvalue="Spring Boot.EurekaServer7001" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -67,7 +164,118 @@
       <option name="presentableId" value="Default" />
       <updated>1597207439736</updated>
       <workItem from="1597207441186" duration="2000" />
+      <workItem from="1597208603514" duration="2264000" />
+      <workItem from="1597211143520" duration="2565000" />
+      <workItem from="1597213916702" duration="4024000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.yml" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="547" y="141" key="#EurekaServer7001" timestamp="1597213516717">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="547" y="141" key="#EurekaServer7001/0.0.1920.1040@0.0.1920.1040" timestamp="1597213516717" />
+    <state x="409" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597217318802">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="409" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597217318802" />
+    <state x="776" y="347" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597211232410">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="347" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597211232410" />
+    <state x="785" y="453" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1597214046834">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="785" y="453" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597214046834" />
+    <state x="435" y="121" key="#项目结构" timestamp="1597214051175">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="435" y="121" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1597214051175" />
+    <state x="646" y="386" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1597211604060">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="646" y="386" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1597211604060" />
+    <state x="735" y="301" key="FileChooserDialogImpl" timestamp="1597217146737">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="735" y="301" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597217146737" />
+    <state width="1269" height="279" key="GridCell.Tab.0.bottom" timestamp="1597217866442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1269" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597217866442" />
+    <state width="1269" height="279" key="GridCell.Tab.0.center" timestamp="1597217866442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1269" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597217866442" />
+    <state width="1269" height="279" key="GridCell.Tab.0.left" timestamp="1597217866442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1269" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597217866442" />
+    <state width="1269" height="279" key="GridCell.Tab.0.right" timestamp="1597217866442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1269" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597217866442" />
+    <state width="1269" height="279" key="GridCell.Tab.1.bottom" timestamp="1597217866442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1269" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597217866442" />
+    <state width="1269" height="279" key="GridCell.Tab.1.center" timestamp="1597217866442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1269" height="279" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597217866442" />
+    <state width="1269" height="279" key="GridCell.Tab.1.left" timestamp="1597217866442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1269" height="279" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597217866442" />
+    <state width="1269" height="279" key="GridCell.Tab.1.right" timestamp="1597217866442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1269" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597217866442" />
+    <state width="1269" height="279" key="GridCell.Tab.2.bottom" timestamp="1597217866443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1269" height="279" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597217866443" />
+    <state width="1269" height="279" key="GridCell.Tab.2.center" timestamp="1597217866443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1269" height="279" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597217866443" />
+    <state width="1269" height="279" key="GridCell.Tab.2.left" timestamp="1597217866442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1269" height="279" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597217866442" />
+    <state width="1269" height="279" key="GridCell.Tab.2.right" timestamp="1597217866443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1269" height="279" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597217866443" />
+    <state x="435" y="121" key="SettingsEditor" timestamp="1597217497169">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="435" y="121" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597217497169" />
+    <state x="486" y="207" key="new project wizard" timestamp="1597217082281">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="486" y="207" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1597217082281" />
+    <state x="472" y="406" key="spring file set editor" timestamp="1597217494545">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="472" y="406" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1597217494545" />
   </component>
 </project>
