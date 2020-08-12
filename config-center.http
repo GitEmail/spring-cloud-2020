@@ -1,0 +1,11 @@
+#无差别群通知
+POST http://localhost:3344/actuator/bus-refresh
+
+###
+#增加过滤条件的群通知
+POST http://localhost:3344/actuator/bus-refresh/cloud-config-client:3366
+
+###
+#指定刷新某一个服务的配置文件
+POST http://localhost:3355/actuator/refresh
+###

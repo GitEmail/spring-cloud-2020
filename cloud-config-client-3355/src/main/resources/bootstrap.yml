@@ -11,6 +11,12 @@ spring:
       label: master
       name: config
       profile: dev
+# RabbitMQ相关配置
+  rabbitmq:
+    host: 10.10.10.2
+    port: 5672
+    username: guest
+    password: guest
 eureka:
   client:
     service-url:

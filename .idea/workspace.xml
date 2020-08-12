@@ -22,7 +22,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96058a75-8ad6-4c3d-a44d-c8ebf77e6501" name="默认的" comment="" />
+    <list default="true" id="96058a75-8ad6-4c3d-a44d-c8ebf77e6501" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3344/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3344/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/target/classes/config-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3344/target/classes/config-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/target/cloud-config-center-3344-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3344/target/cloud-config-center-3344-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/org/spring/controller/ConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/org/spring/controller/ConfigController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/org/spring/controller/ConfigController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/org/spring/controller/ConfigController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/target/cloud-config-client-3355-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/target/cloud-config-client-3355-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +49,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTTP Request" />
         <option value="Class" />
       </list>
     </option>
@@ -86,7 +99,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-config-client-3366/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
@@ -101,12 +114,46 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\Projects\spring-cloud-2020-8\cloud-config-client-3366\src\main\resources" />
       <recent name="D:\java\Projects\spring-cloud-2020-8\cloud-config-client-3355\src" />
       <recent name="D:\java\Projects\spring-cloud-2020-8\cloud-config-center-3344\src" />
       <recent name="D:\java\Projects\spring-cloud-2020-8\cloud-consumer-hystrix-dashboard-9001\src" />
       <recent name="D:\java\Projects\spring-cloud-2020-8\cloud-consumer-feign-hystrix-order-80\src" />
-      <recent name="D:\java\Projects\spring-cloud-2020-8\cloud-consumer-feign-order-80\src" />
     </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3355/actuator/refresh" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3355/actuator/refresh" />
+          <option name="urlPath" value="" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="Gradle tasks" flag="true" />
+      <visibility group="Grunt tasks" flag="true" />
+      <visibility group="Gulp tasks" flag="true" />
+      <visibility group="Maven goals" flag="true" />
+      <visibility group="Node.js" flag="true" />
+      <visibility group="Recent projects" flag="true" />
+      <visibility group="Run configurations" flag="true" />
+      <visibility group="npm" flag="true" />
+      <visibility group="yarn" flag="true" />
+    </myKeys>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -115,7 +162,10 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Config3344">
+  <component name="RunManager" selected="HTTP 请求.config-center#1">
+    <configuration name="config-center#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/config-center.http" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
     <configuration name="Config3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-config-center-3344" />
       <extension name="coverage">
@@ -142,6 +192,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Config3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-client-3366" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ori.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ori.spring.Config3366" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServer7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-eureka-server-7001" />
       <extension name="coverage">
@@ -158,10 +221,14 @@
       <item itemvalue="Spring Boot.EurekaServer7001" />
       <item itemvalue="Spring Boot.Config3344" />
       <item itemvalue="Spring Boot.Config3355" />
+      <item itemvalue="HTTP 请求.config-center#1" />
+      <item itemvalue="Spring Boot.Config3366" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP 请求.config-center#1" />
         <item itemvalue="Spring Boot.Config3355" />
+        <item itemvalue="Spring Boot.Config3366" />
         <item itemvalue="Spring Boot.Config3344" />
         <item itemvalue="Spring Boot.EurekaServer7001" />
       </list>
@@ -182,6 +249,7 @@
       <workItem from="1597211143520" duration="2565000" />
       <workItem from="1597213916702" duration="10125000" />
       <workItem from="1597227625492" duration="2743000" />
+      <workItem from="1597230538960" duration="7859000" />
     </task>
     <servers />
   </component>
@@ -232,65 +300,69 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="735" y="301" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597217146737" />
-    <state width="1502" height="279" key="GridCell.Tab.0.bottom" timestamp="1597230373064">
+    <state width="1843" height="279" key="GridCell.Tab.0.bottom" timestamp="1597241493615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1502" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597230373064" />
-    <state width="1502" height="279" key="GridCell.Tab.0.center" timestamp="1597230373064">
+    <state width="1843" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597241493615" />
+    <state width="1843" height="279" key="GridCell.Tab.0.center" timestamp="1597241493615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1502" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597230373064" />
-    <state width="1502" height="279" key="GridCell.Tab.0.left" timestamp="1597230373064">
+    <state width="1843" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597241493615" />
+    <state width="1843" height="279" key="GridCell.Tab.0.left" timestamp="1597241493615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1502" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597230373064" />
-    <state width="1502" height="279" key="GridCell.Tab.0.right" timestamp="1597230373064">
+    <state width="1843" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597241493615" />
+    <state width="1843" height="279" key="GridCell.Tab.0.right" timestamp="1597241493615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1502" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597230373064" />
-    <state width="1502" height="279" key="GridCell.Tab.1.bottom" timestamp="1597230373064">
+    <state width="1843" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597241493615" />
+    <state width="1502" height="279" key="GridCell.Tab.1.bottom" timestamp="1597239831622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1502" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597230373064" />
-    <state width="1502" height="279" key="GridCell.Tab.1.center" timestamp="1597230373064">
+    <state width="1502" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597239831622" />
+    <state width="1502" height="279" key="GridCell.Tab.1.center" timestamp="1597239831622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1502" height="279" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597230373064" />
-    <state width="1502" height="279" key="GridCell.Tab.1.left" timestamp="1597230373064">
+    <state width="1502" height="279" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597239831622" />
+    <state width="1502" height="279" key="GridCell.Tab.1.left" timestamp="1597239831622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1502" height="279" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597230373064" />
-    <state width="1502" height="279" key="GridCell.Tab.1.right" timestamp="1597230373064">
+    <state width="1502" height="279" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597239831622" />
+    <state width="1502" height="279" key="GridCell.Tab.1.right" timestamp="1597239831622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1502" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597230373064" />
-    <state width="1502" height="279" key="GridCell.Tab.2.bottom" timestamp="1597230373064">
+    <state width="1502" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597239831622" />
+    <state width="1502" height="279" key="GridCell.Tab.2.bottom" timestamp="1597239831622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1502" height="279" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597230373064" />
-    <state width="1502" height="279" key="GridCell.Tab.2.center" timestamp="1597230373064">
+    <state width="1502" height="279" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597239831622" />
+    <state width="1502" height="279" key="GridCell.Tab.2.center" timestamp="1597239831622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1502" height="279" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597230373064" />
-    <state width="1502" height="279" key="GridCell.Tab.2.left" timestamp="1597230373064">
+    <state width="1502" height="279" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597239831622" />
+    <state width="1502" height="279" key="GridCell.Tab.2.left" timestamp="1597239831622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1502" height="279" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597230373064" />
-    <state width="1502" height="279" key="GridCell.Tab.2.right" timestamp="1597230373064">
+    <state width="1502" height="279" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597239831622" />
+    <state width="1502" height="279" key="GridCell.Tab.2.right" timestamp="1597239831622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1502" height="279" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597230373064" />
-    <state x="435" y="121" key="SettingsEditor" timestamp="1597219233130">
+    <state width="1502" height="279" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597239831622" />
+    <state x="435" y="121" key="SettingsEditor" timestamp="1597237390254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="435" y="121" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597219233130" />
-    <state x="486" y="207" key="new project wizard" timestamp="1597217082281">
+    <state x="435" y="121" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597237390254" />
+    <state x="486" y="207" key="new project wizard" timestamp="1597237321924">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="486" y="207" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1597217082281" />
-    <state x="472" y="406" key="spring file set editor" timestamp="1597217494545">
+    <state x="486" y="207" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1597237321924" />
+    <state x="617" y="258" width="672" height="678" key="search.everywhere.popup" timestamp="1597233206512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="472" y="406" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1597217494545" />
+    <state x="617" y="258" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597233206512" />
+    <state x="472" y="406" key="spring file set editor" timestamp="1597237388195">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="472" y="406" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1597237388195" />
   </component>
 </project>
