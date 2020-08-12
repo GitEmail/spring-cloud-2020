@@ -13,7 +13,9 @@ spring:
             - /cloud-config-center-3344/src/main/resources/
           username: GitEmail
           password: Lin52888
-      label: master
+          default-label: master
+#      label: master
+
 eureka:
   client:
     service-url:
