@@ -73,4 +73,10 @@ public class PaymentController {
         }
         return "响应端口：" + port;
     }
+
+    @GetMapping("/payments/zipkin")
+    public AjaxResponse<Payment> getPaymentZipkin(){
+        return new AjaxResponse(HttpStatus.OK.value(),"zipkin"+port);
+    }
+
 }

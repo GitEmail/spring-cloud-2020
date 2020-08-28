@@ -1,0 +1,16 @@
+server:
+  port: 3377
+
+spring:
+  application:
+    name: nacos-config-client
+  cloud:
+    nacos:
+      discovery:
+        enabled: true
+        server-addr: http://10.10.10.2:8848
+      config:
+        enabled: true
+        server-addr: http://10.10.10.2:8848
+        #指定yaml格式的配置
+        file-extension: yaml

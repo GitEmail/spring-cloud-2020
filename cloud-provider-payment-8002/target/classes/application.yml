@@ -6,7 +6,7 @@ spring:
     name: cloud-provider-service
   datasource:
     username: sinology
-    password: sinology@ljx.com2019&10$20
+    password:
     url: jdbc:mysql://39.106.25.67:13320/db2020?useUnicode=true&useSSL=false&serverTimezone=GMT%2B8
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource

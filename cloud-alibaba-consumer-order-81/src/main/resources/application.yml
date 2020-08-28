@@ -1,0 +1,29 @@
+server:
+  port: 81
+
+spring:
+  application:
+    name: nacos-alibaba-consumer
+
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+    default-property-inclusion: NON_NULL
+    serialization:
+      indent-output: true
+  cloud:
+    nacos:
+        server-addr: 10.10.10.2:8848
+
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 8719
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+service:
+  url: http://nacos-alibaba-payment

@@ -3,8 +3,12 @@ server:
 
 spring:
   application:
-    name: cloud-order-org.spring.service
-
+    name: cloud-order-service
+  zipkin:
+    base-url: http://localhost:9411
+    sleuth:
+      sampler:
+      probability: 1
 eureka:
   client:
     #true向Eureka server服务中心注册自己
@@ -12,7 +16,8 @@ eureka:
     #是否从Eureka server 抓起已有的注册信息,默认为true.单节点无所谓，集群必须设置为true才能配合ribbon使用负载均衡
     fetch-registry: true
     service-url:
-      defaultZone: http://eureka7001.org:7001/eureka,http://eureka7002.org:7002/eureka
+      #,http://eureka7002.org:7002/eureka
+      defaultZone: http://eureka7001.org:7001/eureka
   instance:
     instance-id: service80
     #访问路径可以显示IP地址

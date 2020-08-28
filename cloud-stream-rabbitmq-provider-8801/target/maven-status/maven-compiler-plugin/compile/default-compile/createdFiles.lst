@@ -1,0 +1,4 @@
+org\spring\service\impl\MessageProviderImpl.class
+org\spring\StreamMQ8801.class
+org\spring\controller\StreamMessageController.class
+org\spring\service\IMessageProvider.class

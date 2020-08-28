@@ -1,0 +1,28 @@
+server:
+  port: 82
+
+spring:
+  application:
+    name: nacos-alibaba-consumer
+
+  cloud:
+    nacos:
+      discovery:
+        enabled: true
+        server-addr: 10.10.10.2:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+      datasource:
+        ds1:
+          nacos:
+            server-addr: 10.10.10.2:8848
+            dataId: nacos-alibaba-consumer
+            groupId: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
+feign:
+  sentinel:
+    enabled: true
+service-url:
+  nacos-user-service: http://nacos-alibaba-payment

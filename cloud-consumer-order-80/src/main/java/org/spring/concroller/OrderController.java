@@ -56,4 +56,9 @@ public class OrderController {
         }
         return restTemplate.getForObject(loadBalanced.instances(instances).getUri() + "/v1/payments/lb", String.class);
     }
+
+    @GetMapping("/payments/zipkin")
+    public AjaxResponse<Payment> getZipkin(){
+        return restTemplate.getForObject(PAYMENT_URL + "/v1/payments/zipkin", AjaxResponse.class);
+    }
 }
